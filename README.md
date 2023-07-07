@@ -7,7 +7,7 @@ Or you can choose to use selenium to deal with it, to the best of my knowledge, 
 
 Here I give a modern method to deal with **Binance NFT data** (https://www.binance.com/zh-CN/nft/ranking?tab=collection&chain=ETH), if some one, have the need to deal with ETH chain or Opensea, and would like treat me several couple of coffee, I would consider spending more time. 
 
-![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/master/fig/Binance-NFT-Page.png)
+![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Binance-NFT-Page.png)
 
 
 ### Example
