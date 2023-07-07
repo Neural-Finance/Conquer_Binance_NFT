@@ -24,18 +24,28 @@ Step3- Request the data according to the new generated url in step 2, clean and 
 ```
 
 ### Step1, Set Up Selenium+Geckodriver+Firefox
+You need be very careful with **their version compatibility problem**, you may go to the web page for more details: (https://liushilive.github.io/github_selenium_drivers/md/Firefox.html)
 
+And once, you download the firefox, please definitely go to the setting page, to close the <automatic update> options. It's very important! Otherwise it will update to the latest version.
+
+Among these matched versions, I tried this pair and it worked: 	<Firefox v79.0+ win32> + <python 3.6, selenium 3.141.0> + <Geckodriver 0.29.0>
 
 
 ### Step2, Generate New URL
+We should know the name of all collection, so we need webscrapying this page: https://www.binance.com/zh-CN/nft/ranking?tab=collection&chain=ETH
 
+However, it's very hard to scrapy, the requested data is secretly encoded. Common ways really can not solve it, thus we need use step 1 to scarpy it and get the **special number** for each collection url.
 
+![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Special-number1.png)
+
+![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Special-number2.png)
 
 ### Step3, Download Data
 
+As we can see below, in order to request the table data of price and volume, we need this **special number**, slightly observe it and generate the new url! 
 
+![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Special-number3.png)
 
-**Finally, you can get the total trading volume, ground price, number of transactions in each day, for each collection.** Let's stop here together, think about what may drive the price, give me comments and let's go deeper together.
-
+**Finally, you can get the total trading volume, ground price, number of transactions in each day, for each collection.** Let's stop here together, think about what may drive the price, **give me comments and let's go deeper together.**
 
 ![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Saved-data.png)
