@@ -12,26 +12,30 @@ Here I give a modern method to deal with **Binance NFT data** (https://www.binan
 
 ### Project Structure
 ```
-1. Setup Selenium+geckodriver+firefox web browser on your computer. There are many tricks. Watch out!
+Step1- Setup Selenium+geckodriver+firefox web browser on your computer. There are many tricks. Watch out!
 ```
 
 ```
-2. Build new url according to special number you get from step 1.
+Step2- Build new url according to special number you get from step 1.
 ```
 
 ```
-3. Request the data according to the new generated url in step 2, clean and save it.
+Step3- Request the data according to the new generated url in step 2, clean and save it.
 ```
 
 ### Step1, Set Up Selenium+Geckodriver+Firefox
 
 
-### Step2, Set Up Selenium+Geckodriver+Firefox
+
+### Step2, Generate New URL
 
 
-### Step3, Set Up Selenium+Geckodriver+Firefox
+
+### Step3, Download Data
+
 
 
 **Finally, you can get the total trading volume, ground price, number of transactions in each day, for each collection.** Let's stop here together, think about what may drive the price, give me comments and let's go deeper together.
+
 
 ![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Saved-data.png)
