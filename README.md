@@ -12,7 +12,7 @@ Here I give a modern method to deal with **Binance NFT data** (https://www.binan
 
 ### Project Structure
 ```
-Step1- Setup Selenium+geckodriver+firefox web browser on your computer. There are many tricks. Watch out!
+Step1- Setup Selenium + Geckodriver + Firefox web browser
 ```
 
 ```
