@@ -54,3 +54,6 @@ As we can see below, in order to request the table data of price and volume, we 
 **Finally, you can get the total trading volume, ground price, number of transactions in each day, for each collection.** Let's stop here together, think about what may drive the price, **give me comments and let's go deeper together.**
 
 ![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Saved-data.png)
+
+
+**Update to 2023-07-08**, the data can be download from (https://pan.baidu.com/s/1WodnvaZPtsB2IC7t77N0LA?pwd=4zws). But I really suggest you go over this process, after all, the selenium can guarantee to solve the worst cases in web scrapying, and producing new data day by data is meaningful!
