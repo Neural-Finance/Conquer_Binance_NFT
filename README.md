@@ -16,11 +16,11 @@ Step1- Setup Selenium+geckodriver+firefox web browser on your computer. There ar
 ```
 
 ```
-Step2- Build new url according to special number you get from step 1.
+Step2- Collection_list.py
 ```
 
 ```
-Step3- Request the data according to the new generated url in step 2, clean and save it.
+Step3- Download_data.py
 ```
 
 ### Step1, Set Up Selenium+Geckodriver+Firefox
@@ -29,6 +29,10 @@ You need be very careful with **their version compatibility problem**, you may g
 And once, you download the firefox, please definitely go to the setting page, to close the <automatic update> options. It's very important! Otherwise it will update to the latest version.
 
 Among these matched versions, I tried this pair and it worked: 	<Firefox v79.0+ win32> + <python 3.6, selenium 3.141.0> + <Geckodriver 0.29.0>
+
+<Geckodriver 0.29.0>:  https://npm.taobao.org/mirrors/geckodriver/v0.29.0/geckodriver-v0.29.0-win32.zip
+
+<Firefox v79.0+ win32>: https://www.afterdawn.com/software/network/browsers/firefox.cfm/v79_0
 
 
 ### Step2, Generate New URL
@@ -39,6 +43,7 @@ However, it's very hard to scrapy, the requested data is secretly encoded. Commo
 ![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Special-number1.png)
 
 ![Image text](https://github.com/Neural-Finance/Conquer_Binance_NFT/blob/main/fig/Special-number2.png)
+
 
 ### Step3, Download Data
 
